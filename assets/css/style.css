@@ -1,0 +1,48 @@
+.dw-form .formValidation {
+  display: none;
+}
+
+.dw-form select.form-control:not([size]):not([multiple]) {
+  height: calc(3.25rem + 2px);
+}
+
+.dw-form .form-group {
+  margin-bottom: 1.6rem;
+}
+
+.dw-form .form-control {
+  border-radius: 0;
+  border: 0;
+}
+
+.dw-form .addrow a {
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.dw-form button[type="submit"]{
+  background: transparent;
+  font-size: 2.2rem;
+  color: #fff;
+  border: 2px solid#fff;
+}
+
+.dw-form button[type="submit"]:hover{
+  background: #fff;
+  font-size: 2.2rem;
+  color: #54a3b3;
+  border: 2px solid#fff;
+}
+
+.dw-form .line-separator {
+  width: 16rem;
+  height: 2px;
+  background-color: #fff;
+  margin: 3.5rem auto;
+}
+
+.dw-form .formValidation {
+  color: #CF4D4D;
+  font-weight: bold;
+  font-size: 10px;
+}
